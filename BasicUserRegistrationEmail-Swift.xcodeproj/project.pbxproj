@@ -14,6 +14,18 @@
 		342DEA901DAED5E80069D58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342DEA8E1DAED5E80069D58B /* LaunchScreen.storyboard */; };
 		342DEA9B1DAED5E80069D58B /* BasicUserRegistrationEmail_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DEA9A1DAED5E80069D58B /* BasicUserRegistrationEmail_SwiftTests.swift */; };
 		342DEAA61DAED5E80069D58B /* BasicUserRegistrationEmail_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DEAA51DAED5E80069D58B /* BasicUserRegistrationEmail_SwiftUITests.swift */; };
+		342DEAB51DAED9450069D58B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEAB31DAED9450069D58B /* Bolts.framework */; };
+		342DEAB61DAED9450069D58B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEAB41DAED9450069D58B /* Parse.framework */; };
+		342DEAC21DAED97B0069D58B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEAB81DAED97B0069D58B /* AudioToolbox.framework */; };
+		342DEAC31DAED97B0069D58B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEAB91DAED97B0069D58B /* CFNetwork.framework */; };
+		342DEAC41DAED97B0069D58B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEABA1DAED97B0069D58B /* CoreGraphics.framework */; };
+		342DEAC51DAED97B0069D58B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEABB1DAED97B0069D58B /* CoreLocation.framework */; };
+		342DEAC61DAED97B0069D58B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEABC1DAED97B0069D58B /* libsqlite3.tbd */; };
+		342DEAC71DAED97B0069D58B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEABD1DAED97B0069D58B /* libz.tbd */; };
+		342DEAC81DAED97B0069D58B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEABE1DAED97B0069D58B /* QuartzCore.framework */; };
+		342DEAC91DAED97B0069D58B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEABF1DAED97B0069D58B /* Security.framework */; };
+		342DEACA1DAED97B0069D58B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEAC01DAED97B0069D58B /* StoreKit.framework */; };
+		342DEACB1DAED97B0069D58B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DEAC11DAED97B0069D58B /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		342DEAA11DAED5E80069D58B /* BasicUserRegistrationEmail-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BasicUserRegistrationEmail-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		342DEAA51DAED5E80069D58B /* BasicUserRegistrationEmail_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicUserRegistrationEmail_SwiftUITests.swift; sourceTree = "<group>"; };
 		342DEAA71DAED5E80069D58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342DEAB31DAED9450069D58B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		342DEAB41DAED9450069D58B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		342DEAB81DAED97B0069D58B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		342DEAB91DAED97B0069D58B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		342DEABA1DAED97B0069D58B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		342DEABB1DAED97B0069D58B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		342DEABC1DAED97B0069D58B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		342DEABD1DAED97B0069D58B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		342DEABE1DAED97B0069D58B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		342DEABF1DAED97B0069D58B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		342DEAC01DAED97B0069D58B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		342DEAC11DAED97B0069D58B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342DEAC21DAED97B0069D58B /* AudioToolbox.framework in Frameworks */,
+				342DEAC31DAED97B0069D58B /* CFNetwork.framework in Frameworks */,
+				342DEAC41DAED97B0069D58B /* CoreGraphics.framework in Frameworks */,
+				342DEAC51DAED97B0069D58B /* CoreLocation.framework in Frameworks */,
+				342DEAC61DAED97B0069D58B /* libsqlite3.tbd in Frameworks */,
+				342DEAC71DAED97B0069D58B /* libz.tbd in Frameworks */,
+				342DEAC81DAED97B0069D58B /* QuartzCore.framework in Frameworks */,
+				342DEAC91DAED97B0069D58B /* Security.framework in Frameworks */,
+				342DEACA1DAED97B0069D58B /* StoreKit.framework in Frameworks */,
+				342DEACB1DAED97B0069D58B /* SystemConfiguration.framework in Frameworks */,
+				342DEAB61DAED9450069D58B /* Parse.framework in Frameworks */,
+				342DEAB51DAED9450069D58B /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +113,13 @@
 		342DEA791DAED5E70069D58B = {
 			isa = PBXGroup;
 			children = (
+				342DEAB31DAED9450069D58B /* Bolts.framework */,
+				342DEAB41DAED9450069D58B /* Parse.framework */,
 				342DEA841DAED5E80069D58B /* BasicUserRegistrationEmail-Swift */,
 				342DEA991DAED5E80069D58B /* BasicUserRegistrationEmail-SwiftTests */,
 				342DEAA41DAED5E80069D58B /* BasicUserRegistrationEmail-SwiftUITests */,
 				342DEA831DAED5E80069D58B /* Products */,
+				342DEAB71DAED97A0069D58B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +162,23 @@
 				342DEAA71DAED5E80069D58B /* Info.plist */,
 			);
 			path = "BasicUserRegistrationEmail-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		342DEAB71DAED97A0069D58B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342DEAB81DAED97B0069D58B /* AudioToolbox.framework */,
+				342DEAB91DAED97B0069D58B /* CFNetwork.framework */,
+				342DEABA1DAED97B0069D58B /* CoreGraphics.framework */,
+				342DEABB1DAED97B0069D58B /* CoreLocation.framework */,
+				342DEABC1DAED97B0069D58B /* libsqlite3.tbd */,
+				342DEABD1DAED97B0069D58B /* libz.tbd */,
+				342DEABE1DAED97B0069D58B /* QuartzCore.framework */,
+				342DEABF1DAED97B0069D58B /* Security.framework */,
+				342DEAC01DAED97B0069D58B /* StoreKit.framework */,
+				342DEAC11DAED97B0069D58B /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +468,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "BasicUserRegistrationEmail-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "back4app.BasicUserRegistrationEmail-Swift";
@@ -424,6 +484,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "BasicUserRegistrationEmail-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "back4app.BasicUserRegistrationEmail-Swift";
