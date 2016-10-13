@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  BasicUserRegistrationEmail-Swift
 //
-//  Created by Ayrton Alves on 12/10/16.
+//  Created by Ramon Vitor on 12/10/16.
 //  Copyright © 2016 back4app. All rights reserved.
 //
 
